@@ -1,7 +1,7 @@
 # TollGateESP-32Cam
-# Created By: Chrlsed
 
 ESP32-powered Tollgate Camera System
+Created By: Chrlsed
 Telegram Bot: @TollgateCamBot
 
 Here's a picture of the tollgate setup:
