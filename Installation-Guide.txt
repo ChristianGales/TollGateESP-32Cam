@@ -1,0 +1,43 @@
+
+Installation Guide (TollGateCamBot)
+Created by: Christian Charles Gales (https://github.com/ChristianGales)
+		
+
+Step 1: Download the source code in "https://github.com/ChristianGales/TollGateESP-32Cam"
+
+Step 2: Unzip the files "TollGateESP-32Cam-main.zip"
+
+Step 3: Assemble the components, follow the diagram "esp32-wiring-diagram-svg.svg"
+	(Be sure the esp-32 cam have 5v power)
+
+Step 3: Download libraries and boards to your laptop/pc
+	Board: AI Thinker ESP32-CAM
+	Libraries: Universal Telegram Bot Library (Brian Lough) 
+		   Donwload here "https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/archive/master.zip"
+		   Then add the zip to your library
+	           ArduinoJson (Benoit Blanchon)
+		   ESP32Servo.h (Kevin Harrington)
+
+Step 4: Changes in the Code (tollgatebot.ino)
+	Change Cridentials (Must have an Internet Connection)
+	SSID : "GlobeatHome10"
+	Password : "12345678"
+
+Step 5: Verify then upload the edited code to your esp32-cam
+	After Successful upload (be sure to Install and download all the libraries to avoid error)
+
+Step 6: Open Telegram app 
+        Search "@TollgateCamBot"
+        Open bot then "Click Start"
+
+Step 7: It should Display 
+	"TollGateSystem is now online!" in telegram Bot (Only if there are no error or wrong pin in the asssembly)
+
+ 
+	
+
+
+
+
+
+
