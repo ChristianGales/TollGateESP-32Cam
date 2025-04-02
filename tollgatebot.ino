@@ -1,5 +1,6 @@
 // Tollgate System with Esp32 Cam
 // Created By Christian Charles Gales
+// Based on https://randomnerdtutorials.com/telegram-esp32-cam-photo-arduino/
 // https://github.com/ChristianGales
 
 #include <Arduino.h>
