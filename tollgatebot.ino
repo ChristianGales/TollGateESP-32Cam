@@ -14,12 +14,20 @@
 #include <ESP32Servo.h>
 
 //Network Cridentials Make (must have an internet connection)
-const char* ssid = "GlobeAtHome_C3424";
-const char* password = "Galesfamily#09";
+// const char* ssid = "GlobeAtHome_C3424";
+// const char* password = "Galesfamily#09";
+
+const char* ssid = "RedNote12Pro5G";
+const char* password = "12345678";
+
 
 // Initialize Telegram BOT
-String BOTtoken = "7514510568:AAFw8pPUPt6AO8PZ9Cl_uW2wC1lVgsEKcro"; 
-String CHAT_ID = "7931352728";
+// String BOTtoken = "7514510568:AAFw8pPUPt6AO8PZ9Cl_uW2wC1lVgsEKcro"; 
+// String CHAT_ID = "7931352728";
+
+String BOTtoken = "7800075174:AAHmN_dJ3q51gmykfTA_pwVX9IPvva6E-6U"; 
+String CHAT_ID = "7800075174";
+
 
 bool sendPhoto = false;
 
